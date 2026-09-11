@@ -12,8 +12,8 @@ import {
   getRelatedPosts,
   getAdjacentPosts,
   extractHeadings,
-  slugify,
 } from "@/lib/posts";
+import { slugify } from "@/lib/utils";
 import { mdxComponents } from "@/lib/mdx-components";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { TableOfContents } from "@/components/TableOfContents";

@@ -9,10 +9,10 @@ export default function NotFound() {
     <div className="mx-auto max-w-4xl px-5 py-20 text-center sm:px-8">
       <p className="font-serif text-7xl font-semibold text-moss">404</p>
       <h1 className="mt-4 font-serif text-3xl font-semibold text-ink">
-        This bed hasn't been planted yet
+        This bed hasn&apos;t been planted yet
       </h1>
       <p className="mx-auto mt-3 max-w-md text-base text-bark/70">
-        The page you're looking for doesn't exist, or may have moved. Try the
+        The page you&apos;re looking for doesn&apos;t exist, or may have moved. Try the
         homepage, or one of these recent posts.
       </p>
       <Link

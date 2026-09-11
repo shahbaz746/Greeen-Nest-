@@ -8,7 +8,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { JsonLd } from "@/components/JsonLd";
 import { breadcrumbJsonLd } from "@/lib/jsonld";
 import { siteConfig } from "@/site.config";
-import { slugify } from "@/lib/posts";
+import { slugify } from "@/lib/utils";
 
 export const metadata: Metadata = {
   title: "Blog",
@@ -44,7 +44,7 @@ export default function BlogIndexPage({
 
       <h1 className="font-serif text-4xl font-semibold text-ink">The Journal</h1>
       <p className="mt-3 max-w-xl text-base text-bark/70">
-        Everything we've written about gardening, houseplants, DIY projects,
+        Everything we&apos;ve written about gardening, houseplants, DIY projects,
         decor, and outdoor living — newest first.
       </p>
 

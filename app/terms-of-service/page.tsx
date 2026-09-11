@@ -37,7 +37,7 @@ export default function TermsOfServicePage() {
         <h2>Use of content</h2>
         <p>
           Articles, photos, and other content on this site are the property
-          of {siteConfig.name} unless otherwise credited. You're welcome to
+          of {siteConfig.name} unless otherwise credited. You&apos;re welcome to
           link to our posts; republishing full articles elsewhere requires
           written permission.
         </p>
@@ -45,7 +45,7 @@ export default function TermsOfServicePage() {
         <h2>No professional advice</h2>
         <p>
           Gardening, DIY, and home advice on this site is for general
-          informational purposes and reflects our own experience — it isn't
+          informational purposes and reflects our own experience — it isn&apos;t
           a substitute for professional guidance specific to your climate,
           soil, structure, or local building codes.
         </p>
@@ -54,13 +54,13 @@ export default function TermsOfServicePage() {
         <p>
           If commenting or submitting content through this site, you agree
           not to post anything unlawful, abusive, or infringing on someone
-          else's rights.
+          else&apos;s rights.
         </p>
 
         <h2>Limitation of liability</h2>
         <p>
-          {siteConfig.name} is provided "as is" without warranties of any
-          kind. We aren't liable for damages arising from your use of the
+          {siteConfig.name} is provided &quot;as is&quot; without warranties of any
+          kind. We aren&apos;t liable for damages arising from your use of the
           site or reliance on its content, to the fullest extent permitted
           by law.
         </p>

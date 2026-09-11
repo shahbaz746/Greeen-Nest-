@@ -1,37 +1,14 @@
+import "server-only";
+
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
 import readingTime from "reading-time";
 import GithubSlugger from "github-slugger";
+import type { Heading, Post, PostFrontmatter } from "@/types/post";
+import { slugify } from "@/lib/utils";
 
 const POSTS_DIR = path.join(process.cwd(), "content/posts");
-
-export type PostFrontmatter = {
-  title: string;
-  slug: string;
-  description: string;
-  date: string;
-  author: string;
-  category: string;
-  tags: string[];
-  coverImage: string;
-  coverImageAlt?: string;
-  noindex?: boolean;
-  faq?: { question: string; answer: string }[];
-};
-
-export type Post = {
-  frontmatter: PostFrontmatter;
-  content: string;
-  readingTime: string;
-  slug: string;
-};
-
-export type Heading = {
-  depth: number;
-  text: string;
-  id: string;
-};
 
 function readPostFile(filename: string): Post {
   const filePath = path.join(POSTS_DIR, filename);
@@ -143,14 +120,6 @@ export function extractHeadings(content: string): Heading[] {
     headings.push({ depth, text, id: slugger.slug(text) });
   }
   return headings;
-}
-
-export function slugify(value: string): string {
-  return value
-    .toLowerCase()
-    .trim()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/(^-|-$)/g, "");
 }
 
 export function categoryDisplayName(categorySlug: string): string {

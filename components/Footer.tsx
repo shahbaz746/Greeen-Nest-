@@ -63,7 +63,7 @@ export function Footer() {
               Stay in the loop
             </p>
             <p className="mt-4 text-sm text-cream/80">
-              New posts, seasonal checklists, and a few things we're growing.
+              New posts, seasonal checklists, and a few things we&apos;re growing.
             </p>
             <div className="mt-4">
               <NewsletterForm variant="dark" />

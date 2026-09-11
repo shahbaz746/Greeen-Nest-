@@ -3,7 +3,7 @@
 import { useMemo, useState } from "react";
 import { useSearchParams, useRouter } from "next/navigation";
 import { PostCard } from "@/components/PostCard";
-import type { Post } from "@/lib/posts";
+import type { Post } from "@/types/post";
 
 export function SearchClient({ posts }: { posts: Post[] }) {
   const searchParams = useSearchParams();

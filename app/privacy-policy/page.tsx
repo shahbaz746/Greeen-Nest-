@@ -64,15 +64,15 @@ export default function PrivacyPolicyPage() {
         <h2>Third-party links</h2>
         <p>
           Posts may link to third-party sites, including retailers and other
-          blogs. We aren't responsible for the privacy practices of sites we
-          don't operate.
+          blogs. We aren&apos;t responsible for the privacy practices of sites we
+          don&apos;t operate.
         </p>
 
         <h2>Your choices</h2>
         <p>
           You can unsubscribe from the newsletter at any time using the link
           included in every email. To request that we delete information
-          you've submitted through the contact form, email{" "}
+          you&apos;ve submitted through the contact form, email{" "}
           {siteConfig.contact.email}.
         </p>
 

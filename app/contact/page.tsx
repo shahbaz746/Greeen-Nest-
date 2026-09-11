@@ -29,7 +29,7 @@ export default function ContactPage() {
 
       <h1 className="font-serif text-4xl font-semibold text-ink">Get in touch</h1>
       <p className="mt-3 max-w-xl text-base text-bark/70">
-        Questions, story ideas, or a photo of a plant you can't identify —
+        Questions, story ideas, or a photo of a plant you can&apos;t identify —
         send it over. We read everything, even if it takes a few days to
         reply.
       </p>

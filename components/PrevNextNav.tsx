@@ -1,5 +1,5 @@
 import Link from "next/link";
-import type { Post } from "@/lib/posts";
+import type { Post } from "@/types/post";
 
 export function PrevNextNav({
   previous,

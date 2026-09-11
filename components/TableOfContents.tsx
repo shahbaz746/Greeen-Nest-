@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import type { Heading } from "@/lib/posts";
+import type { Heading } from "@/types/post";
 
 export function TableOfContents({ headings }: { headings: Heading[] }) {
   const [activeId, setActiveId] = useState<string>("");

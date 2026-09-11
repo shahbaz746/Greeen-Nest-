@@ -57,14 +57,14 @@ export default function AboutPage() {
           other way around: every post starts from a real problem, tested in
           a real home, before it becomes an article.
         </p>
-        <h2>Who's behind it</h2>
+        <h2>Who&apos;s behind it</h2>
         <p>
           GreenNest is written by {siteConfig.author.name}.{" "}
           {siteConfig.author.bio}
         </p>
-        <h2>What you'll find here</h2>
+        <h2>What you&apos;ll find here</h2>
         <p>
-          Practical gardening guidance for beginners and people who've
+          Practical gardening guidance for beginners and people who&apos;ve
           killed a few plants along the way, honest houseplant care advice,
           small-space and outdoor living ideas, and home decor that
           prioritizes function over trend. New posts go up weekly.

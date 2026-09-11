@@ -1,5 +1,5 @@
 import { siteConfig } from "@/site.config";
-import type { Post } from "@/lib/posts";
+import type { Post } from "@/types/post";
 
 const abs = (p: string) =>
   p.startsWith("http") ? p : `${siteConfig.domain}${p}`;

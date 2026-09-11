@@ -1,15 +1,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import { format } from "date-fns";
-import type { Post } from "@/lib/posts";
-
-function slugify(value: string): string {
-  return value
-    .toLowerCase()
-    .trim()
-    .replace(/[^a-z0-9]+/g, "-")
-    .replace(/(^-|-$)/g, "");
-}
+import type { Post } from "@/types/post";
+import { slugify } from "@/lib/utils";
 
 export function PostCard({
   post,
